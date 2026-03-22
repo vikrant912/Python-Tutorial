@@ -30,3 +30,42 @@ var = {'lat': 40.20547, 'lon': -74.76322}
 var['lat'] = 40.2054
 
 Each has its own set of methods
+
+#######################
+Conditional branching 
+1. The if and else Statements
+This is the simplest form of branching, used when you have two possible paths (a "Yes/No" scenario).
+
+if: Checks if a condition is met.
+
+else: Provides a "fallback" plan if the if condition is not met.
+
+Syntax Example:
+
+Python
+if variable == condition:
+    # This code runs if the condition is True
+else:
+    # This code runs if the condition is False
+2. The elif Statement
+Short for "else if," elif is used when you have more than two possible outcomes. You can use as many elif blocks as you need between the if and the else.
+
+if: The first check.
+
+elif: Subsequent checks if the previous ones failed.
+
+else: The final catch-all if none of the conditions were met.
+
+3. Practical Example
+Think of it like checking the temperature to decide what to wear:
+
+Python
+temp = 25
+
+if temp > 30:
+    print("It's hot! Wear a T-shirt.")
+elif temp > 15:
+    print("It's pleasant. A light jacket is fine.")
+else:
+    print("It's cold! Wear a heavy coat.")
+

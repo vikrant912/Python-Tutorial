@@ -23,3 +23,4 @@ e = {'a': '1', 'q': '2', 'c': '3', 'd': '4'}
 
 # Accessing the value using the key 'q'
 print(e['q'])
+
