@@ -72,3 +72,36 @@ else:
 
 ****Important Note: In Python, indentation (the space at the beginning of the line) is strictly required.
  It tells Python which lines of code belong to which branch.
+ ##############################################################
+
+Conditional Operators:
+== - equal to
+
+!= - not equal to
+
+> - greater than
+
+< - less than
+
+>= - greater than or equal to
+
+STDIN and STDOUT:
+STDIN - Standard Input
+
+STDOUT - Standard Output
+
+A Quick Breakdown
+1. Conditional Operators
+These are used to compare two values. They always result in either True or False.
+
+Example: 5 > 3 is True, while 5 == 3 is False.
+
+Common Pitfall: Use == (double equals) for comparison. Using a single = is for assigning a value to a variable.
+
+2. STDIN & STDOUT
+These are the basic ways a program communicates with the outside world:
+
+STDIN (Standard Input): How the program gets information. In Python, this is usually the input() function where a user types something.
+
+STDOUT (Standard Output): How the program shows information. In Python, this is usually the print() function that displays text on your screen.
+ 
