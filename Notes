@@ -5,3 +5,28 @@ Integer - whole number, for example 1, 2, 3, 4, 5
 Float - decimal number for example 1.1, 2.4, 3.7, 4.4, 5.5
 Boolean - True or False value
 
+Obeject:- 
+Lists (mutable sets of strings)
+
+var = [] # create list
+
+var = ['one', 2, 'three', 'banana']
+
+######################################
+
+Tuples (immutable sets)
+
+var = ('one', 2, 'three', 'banana')
+
+
+######################################
+
+Dictionaries (associative arrays or 'hashes')
+
+var = {} # create dictionary
+
+var = {'lat': 40.20547, 'lon': -74.76322}
+
+var['lat'] = 40.2054
+
+Each has its own set of methods
