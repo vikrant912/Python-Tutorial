@@ -105,3 +105,11 @@ STDIN (Standard Input): How the program gets information. In Python, this is usu
 
 STDOUT (Standard Output): How the program shows information. In Python, this is usually the print() function that displays text on your screen.
  
+Looping with For
+We could use a for loop to perform geoprocessing tasks on each layer in a list.
+
+We could get a list of features in a feature class and loop over each, checking attributes.
+
+Anything in a sequence or list can be used in a for loop.
+
+Just be sure not to modify the list while looping.
