@@ -17,3 +17,9 @@ print(c)
 d={1,2,3,4,55,55} #this is set {}
 
 print(d)
+
+# Dictionary containing key and value pairs separated by :
+e = {'a': '1', 'q': '2', 'c': '3', 'd': '4'} 
+
+# Accessing the value using the key 'q'
+print(e['q'])
