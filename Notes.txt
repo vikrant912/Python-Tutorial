@@ -69,3 +69,6 @@ elif temp > 15:
 else:
     print("It's cold! Wear a heavy coat.")
 
+
+****Important Note: In Python, indentation (the space at the beginning of the line) is strictly required.
+ It tells Python which lines of code belong to which branch.
