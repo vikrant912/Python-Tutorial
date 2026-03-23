@@ -97,14 +97,14 @@ These are used to compare two values. They always result in either True or False
 Example: 5 > 3 is True, while 5 == 3 is False.
 
 Common Pitfall: Use == (double equals) for comparison. Using a single = is for assigning a value to a variable.
-
+####################################################################
 2. STDIN & STDOUT
 These are the basic ways a program communicates with the outside world:
 
 STDIN (Standard Input): How the program gets information. In Python, this is usually the input() function where a user types something.
 
 STDOUT (Standard Output): How the program shows information. In Python, this is usually the print() function that displays text on your screen.
- 
+##################################################################### 
 Looping with For
 We could use a for loop to perform geoprocessing tasks on each layer in a list.
 
@@ -113,3 +113,4 @@ We could get a list of features in a feature class and loop over each, checking 
 Anything in a sequence or list can be used in a for loop.
 
 Just be sure not to modify the list while looping.
+############################################################################
