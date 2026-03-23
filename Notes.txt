@@ -114,3 +114,30 @@ Anything in a sequence or list can be used in a for loop.
 
 Just be sure not to modify the list while looping.
 ############################################################################
+Modules
+Modules are additional pieces of code that further extend Python’s functionality
+
+A module typically has a specific function
+
+additional math functions, databases, network…
+
+Python comes with many useful modules
+
+arcgisscripting is the module we will use to load ArcGIS toolbox functions into Python
+
+*Common Python Modules
+os - operating system
+
+sys - system
+
+re - regular expression
+
+math - mathematical functions
+
+random - random number generator
+
+datetime - date and time
+
+json - javascript object notation
+
+##############################################################
