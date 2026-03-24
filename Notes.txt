@@ -140,4 +140,122 @@ datetime - date and time
 
 json - javascript object notation
 
+Here is the Different File Modes section extracted from your notes in the image:
+
+Different File Modes
+r - read
+
+w - write
+
+a - append
+
+r+ - read and write
+
+w+ - write and read
+
+a+ - append and read
+
+rb - read binary
+
+wb - write binary
+
+ab - append binary
 ##############################################################
+
+Error Capture
+Check for type assignment errors, items not in a list, etc.
+
+Try & Except
+
+try:
+
+a block of code that might have an error
+
+except:
+
+code to execute if an error occurs in "try"
+
+Allows for graceful failure
+— important in ArcGIS
+
+####################################################################
+What Is a Program?
+Usually, one or more algorithms written in a programming language that can be translated to run on a real machine
+
+We sometimes call programs software
+
+To put this in perspective for your Python learning, your .py files are the "software" containing your algorithms,
+ and the Python interpreter is what "translates" them so your computer can actually execute the commands.
+
+
+Think of the difference between a Compiler and an Interpreter like the difference between a Translation Service and a Live Translator.
+
+1. The Compiler (The "Professional Translation")
+A compiler takes your entire code file and translates it all at once into a new file that the computer understands (like an .exe file). You don't need the original code or the compiler anymore once the translation is done; you just run the finished "book."
+
+Speed: Very fast once translated.
+
+Errors: It finds all your mistakes at once before it even tries to run the program.
+
+Examples: C, C++, Rust.
+
+2. The Interpreter (The "Live Translator")
+An interpreter reads your code line-by-line and executes it immediately. It’s like having a translator standing next to you while you speak, translating every sentence as soon as you say it.
+
+Speed: Slower, because it has to translate while it's running.
+
+Errors: It stops the moment it hits an error. This makes it much easier to debug because you know exactly which line broke.
+
+Examples: Python, JavaScript, Ruby.
+===========================================================================
+FEATURE             COMPILER                        INTERPRETER
+===========================================================================
+How it works        Translates the entire program   Translates and executes 
+                    into machine code at once       code line-by-line 
+                    before execution.               during runtime.
+---------------------------------------------------------------------------
+Output              Creates a standalone executable No separate output file 
+                    file (e.g., .exe or .out).      is created.
+---------------------------------------------------------------------------
+Execution Speed     Very Fast (the translation      Slower (translation happens 
+                    work is already done).          while the program is running).
+---------------------------------------------------------------------------
+Error Detection     Reports all errors after        Stops and reports errors 
+                    scanning the entire code.       the moment it hits them 
+                    Will not run until fixed.       during execution.
+---------------------------------------------------------------------------
+Debugging           Harder; requires a full         Easier; provides immediate 
+                    recompile after every fix.      feedback on specific lines.
+---------------------------------------------------------------------------
+Memory Usage        Lower during execution (only    Higher (the interpreter must 
+                    the machine code runs).         stay in RAM while running).
+---------------------------------------------------------------------------
+Best Use Case       Production software, OS,        Scripting, web development, 
+                    and high-performance games.     rapid prototyping, learning.
+---------------------------------------------------------------------------
+Common Examples     C, C++, Rust, Go, Swift.        Python, JavaScript, Ruby, PHP.
+===========================================================================
+
+Note: In modern 2026 development, many languages use a "Hybrid" approach 
+(like JIT - Just-In-Time compilation) to get the speed of a compiler with 
+the flexibility of an interpreter.
+
+
+Basic Program Pattern 
+Input: This is where you gather data—like using the input() function in Python.
+
+Process: This is the "brain" of your code where the algorithms we discussed earlier do the heavy lifting (math, logic, etc.).
+
+Output: This is the result shown to the user, typically via a print() statement or a file write.
+
+####################################################
+===========================================================================
+PYTHON KEYWORDS
+===========================================================================
+- Keywords are reserved words that have special meaning in the 
+  Python language.
+---------------------------------------------------------------------------
+- Because they are reserved, they can not be used as identifiers.
+---------------------------------------------------------------------------
+- Examples of keywords are: if, while, class, import.
+===========================================================================
