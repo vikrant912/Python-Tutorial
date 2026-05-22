@@ -112,10 +112,27 @@
 
 # if (count := len(numbers)) > 3:
 #     print(f"List has {count} elements")
-x = ["apple", "banana"]
-y = ["apple", "banana"]
-z = x
+# x = ["apple", "banana"]
+# y = ["apple", "banana"]
+# z = x
 
-print(x is z)
-print(x is y)
-print(x == y)
+# print(x is z)
+# print(x is y)
+# print(x == y)
+
+# Difference Between is and ==
+# is - Checks if both variables point to the same object in memory
+# == - Checks if the values of both variables are equal
+# x = [1, 2, 3]
+# y = [1, 2, 3]
+
+# print(x == y)
+# print(x is y)
+# fruits = ["apple", "banana", "cherry"]
+
+# print("banana" in fruits)
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
