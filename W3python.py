@@ -131,8 +131,23 @@
 # fruits = ["apple", "banana", "cherry"]
 
 # print("banana" in fruits)
-text = "Hello World"
+# text = "Hello World"
 
-print("H" in text)
-print("hello" in text)
-print("z" not in text)
+# print("H" in text)
+# print("hello" in text)
+# print("z" not in text)
+
+# Operator	Name	Description	Example	Try it
+# & 	AND	Sets each bit to 1 if both bits are 1	x & y	
+# |	OR	Sets each bit to 1 if one of two bits is 1	x | y	
+# ^	XOR	Sets each bit to 1 if only one of two bits is 1	x ^ y	
+# ~	NOT	Inverts all the bits	~x	
+# <<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off	x << 2	
+# >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 2
+# print(100 + 5 * 3)
+# print(5 + 4 - 7 + 3)
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
