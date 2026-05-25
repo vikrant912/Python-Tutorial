@@ -156,5 +156,7 @@
 # mylist = ["apple", "banana", "cherry"]
 # mylist.insert(1,"davai")
 # print(mylist)
-thislist = ["apple", "banana", "cherry"]
-print(len(thislist))
+# thislist = ["apple", "banana", "cherry"]
+# print(len(thislist))
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
